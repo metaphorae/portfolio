@@ -11,6 +11,11 @@
     </div>
   <% end %>
 
+  <div class="rounded-lg py-3 px-5 font-medium">
+    <%= form.label :name, class: "form-label" %>
+    <%= form.text_field :name, class: "form-input px-4 py-3 rounded-full h-full text-lg", placeholder: "Name" %>
+  </div>
+
   <div class="inline">
     <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
   </div>
